@@ -1,10 +1,10 @@
 # syntax=docker/dockerfile:1
 
-ARG PACK_NAME="FTB StoneBlock 4"
-ARG PACK_VERSION="1.7.3"
+ARG PACK_NAME="FTB Skies 2"
+ARG PACK_VERSION="1.14.3"
 
-ARG FTB_ID="130"
-ARG FTB_VER="100177"
+ARG FTB_ID="129"
+ARG FTB_VER="100250"
 
 FROM eclipse-temurin:21-jdk
 
@@ -18,7 +18,7 @@ ARG FTB_VER
 LABEL version="${PACK_VERSION}"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="${PACK_NAME}"
-LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/5b/5b10fbf6e78546a5a4be81a2d311718cc24d29e4277e747028d787d6fec0be46.webp"
+LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/49/4951517d1bd2376e48d280427f95fd313c7aa778bddff582296651cfae7d7a9a.png"
 LABEL homepage.widget.type=minecraft
 # LABEL homepage.widget.url=udp://FTB-StoneBlock-4:25565
 
